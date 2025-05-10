@@ -1,0 +1,69 @@
+body{
+    background-image: url("images/False_Dawn.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+div{
+    border-style: solid;
+    border-color: rgb(174, 217, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+    color:white;
+    display:inline-block;
+}
+.dc{
+    position: absolute;/**/
+    left: calc(50% - 113.5px);
+    justify-content: center;
+}
+.text{
+    position: absolute;
+    left: calc(50% - 25vw);/**/
+    top: 20ch;
+    width: 50vw;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+nav{
+    position: absolute;
+    border-style: solid;
+    border-color: rgb(174, 217, 255);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    left: calc(50% - 165.5px);
+    top: 13ch;
+    display:inline-block;
+    padding: 5px;
+}
+a{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Garamond, Times, serif;
+    color: rgb(233, 233, 233);
+    padding: 5px;
+}
+a:hover{
+    color: rgb(167, 167, 167);
+}
+a.current{
+    color: rgb(201, 228, 252);
+}
+a.cc{
+    color: rgb(195, 195, 195);
+    font-size: small;
+}
+h1{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Garamond, Times, serif;
+}
+h2{
+    font-family: Garamond, Times, serif;
+}
+span.b{
+    font-weight: bold;
+}
+img{
+    width: 100px;
+    padding: 5px;
+}
