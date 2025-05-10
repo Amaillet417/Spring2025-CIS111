@@ -1,27 +1,27 @@
-body{
-    background-image: url("images/False_Dawn.jpg");
-    background-repeat: repeat-y;
-    background-size: 100%;
+body{/*is applied to a specific tag, this one is for the body element*/
+    background-image: url("images/False_Dawn.jpg");/*sets an elements background image*/
+    background-repeat: repeat-y;/*makes the background image repeat vertically if the site scrolls past the image's height*/
+    background-size: 100%;/*sets the width of the background to 100% of the window's width*/
 }
 div{
-    border-style: solid;
-    border-color: rgb(174, 217, 255);
-    border-radius: 16px;
-    backdrop-filter: blur(8px);
-    color:white;
+    border-style: solid;/*makes the element's border visible*/
+    border-color: rgb(174, 217, 255);/*sets the border's color*/
+    border-radius: 16px;/*gives the border rounded corners*/
+    backdrop-filter: blur(8px);/*blurs whatever is behind the element*/
+    color:white;/*sets the default text color within the element to white*/
     display:inline-block;
 }
-.dc{
-    position: absolute;/**/
-    left: calc(50% - 113.5px);
+.dc{/*This is a class, the styles specified will be applied to all objects with this class*/
+    position: absolute;
+    left: calc(50% - 113.5px);/*puts the element in the middle of the page*/
     justify-content: center;
 }
 .text{
     position: absolute;
-    left: calc(50% - 25vw);/**/
-    top: 20ch;
-    width: 50vw;
-    padding-left: 5px;
+    left: calc(50% - 25vw);
+    top: 20ch;/*moves the element down so it doesn't overlap with other elements*/
+    width: 50vw;/*makes the element's width proportional to the viewport's width*/
+    padding-left: 5px;/*padding creates space between an element's inner border and it's contents*/
     padding-right: 5px;
 }
 nav{
@@ -36,13 +36,13 @@ nav{
     padding: 5px;
 }
 a{
-    font-size: larger;
-    font-weight: bold;
-    font-family: Garamond, Times, serif;
+    font-size: larger;/*sets the font's size*/
+    font-weight: bold;/*sets the font's thick*/
+    font-family: Garamond, Times, serif;/*sets the default font family and it's backups*/
     color: rgb(233, 233, 233);
     padding: 5px;
 }
-a:hover{
+a:hover{/*changes the element's properties when the user hovers over it*/
     color: rgb(167, 167, 167);
 }
 a.current{
@@ -65,5 +65,4 @@ span.b{
 }
 img{
     width: 100px;
-    padding: 5px;
 }
